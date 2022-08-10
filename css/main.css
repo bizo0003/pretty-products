@@ -18,13 +18,6 @@ main {
   margin: 1rem;
 }
 
-h2 {
-  font-family: Oswald, sans-serif;
-  margin: 0;
-  color: #6f00e7;
-  font-size: 2rem;
-}
-
 a {
   font-family: Oswald, sans-serif;
 }
@@ -56,12 +49,6 @@ ol > li {
   align-items: center;
 }
 
-h2 + img {
-  order: -1;
-  max-width: 15em;
-  margin-bottom: 1.5rem;
-}
-
 ol ul {
   list-style-type: none;
   margin: 0;
@@ -71,6 +58,19 @@ ol ul {
   justify-content: space-between;
   align-items: center;
   align-self: stretch;
+}
+
+h2 {
+  font-family: Oswald, sans-serif;
+  margin: 0;
+  color: #6f00e7;
+  font-size: 2rem;
+}
+
+h2 + img {
+  order: -1;
+  max-width: 15em;
+  margin-bottom: 1.5rem;
 }
 
 ul a {
@@ -94,8 +94,8 @@ ul a img {
 .btn {
   background-color: #6f00e7;
   color: #fff;
-  text-decoration: none;
   padding: .5em 1.5em .7em;
+  text-decoration: none;
   border-radius: 3em;
   font-weight: bold;
 }
